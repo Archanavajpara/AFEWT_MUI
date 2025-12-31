@@ -11,6 +11,9 @@ import TableB from './Lab11/TableB'
 import StriptedT from './Lab11/StriptedT'
 import Tooltip1 from './Lab11/Tooltip1'
 import ToolTran from './Lab11/ToolTran'
+import PageL from './Lab12/PageL'
+import Column2 from './Lab12/Column2'
+import Box4 from './Lab12/Box4'
 
 function App() {
   return (
@@ -26,7 +29,12 @@ function App() {
         {/* <TableB/> */}
         {/* <StriptedT/> */}
         {/* <Tooltip1/> */}
-        <ToolTran/>
+        {/* <ToolTran/> */}
+      </div>
+      <div>
+        {/* <PageL/> */}
+        <Column2/>
+        <Box4/>
       </div>
     </>
   )
