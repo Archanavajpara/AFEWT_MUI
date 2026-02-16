@@ -14,6 +14,16 @@ import ToolTran from './Lab11/ToolTran'
 import PageL from './Lab12/PageL'
 import Column2 from './Lab12/Column2'
 import Box4 from './Lab12/Box4'
+import Appbar from './Lab13/Appbar'
+import BasicBreadcrumb from './Lab13/BasicBreadcrumb'
+import Dropbutton from './Lab13/Dropbutton'
+import Tab3 from './Lab13/Tab3'
+import BottomNav from './Lab13/BottomNav'
+import BasicSnackbar from './Lab15/BasicSnakebar'
+import SmoothType from './Lab20/SmoothType'
+import TextUp from './Lab20/TextUp'
+import TabSwitcher from './Lab20/TabSwitcher'
+import PreventUI from './Lab20/PreventUI'
 
 function App() {
   return (
@@ -33,8 +43,24 @@ function App() {
       </div>
       <div>
         {/* <PageL/> */}
-        <Column2/>
-        <Box4/>
+        {/* <Column2/> */}
+        {/* <Box4/> */}
+      </div>
+      <div>
+        {/* <Appbar/>
+        <BasicBreadcrumb/>
+        <Dropbutton/>
+        <Tab3/>
+        <BottomNav/> */}
+      </div>
+      <div>
+        {/* <BasicSnackbar/> */}
+      </div>
+      <div>
+          {/* <SmoothType/> */}
+          {/* <TextUp/> */}
+          {/* <TabSwitcher/> */}
+          <PreventUI/>
       </div>
     </>
   )
