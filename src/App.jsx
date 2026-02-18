@@ -24,6 +24,9 @@ import SmoothType from './Lab20/SmoothType'
 import TextUp from './Lab20/TextUp'
 import TabSwitcher from './Lab20/TabSwitcher'
 import PreventUI from './Lab20/PreventUI'
+import Submit from './Lab20/Submit'
+import SubmitAlert from './Lab20/SubmitAlert'
+import FocusImp from './Lab20/FocusImp'
 
 function App() {
   return (
@@ -60,7 +63,12 @@ function App() {
           {/* <SmoothType/> */}
           {/* <TextUp/> */}
           {/* <TabSwitcher/> */}
-          <PreventUI/>
+          {/* <PreventUI/> */}
+      </div>
+      <div>
+        {/* <Submit/> */}
+        {/* <SubmitAlert/> */}
+        <FocusImp/>
       </div>
     </>
   )
