@@ -27,6 +27,11 @@ import PreventUI from './Lab20/PreventUI'
 import Submit from './Lab20/Submit'
 import SubmitAlert from './Lab20/SubmitAlert'
 import FocusImp from './Lab20/FocusImp'
+import LoginForm from './Lab21/LoginForm'
+import AddTaskBt from './Lab21/AddTaskBt'
+import MultiContext from './Lab21/MultiContext'
+import ThemeContextB from './Lab21/ThemeContextB'
+import LoginA from './Lab21/LoginA'
 
 function App() {
   return (
@@ -66,9 +71,18 @@ function App() {
           {/* <PreventUI/> */}
       </div>
       <div>
-        {/* <Submit/> */}
-        {/* <SubmitAlert/> */}
-        <FocusImp/>
+        {/* <Submit/>
+        <br />
+        <SubmitAlert/>
+        <br />
+        <FocusImp/> */}
+      </div>
+      <div>
+        {/* <LoginForm/> */}
+        {/* <AddTaskBt/> */}
+        {/* <MultiContext/> */}
+        {/* <ThemeContextB/> */}
+        <LoginA/>
       </div>
     </>
   )
