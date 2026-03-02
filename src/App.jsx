@@ -32,6 +32,7 @@ import AddTaskBt from './Lab21/AddTaskBt'
 import MultiContext from './Lab21/MultiContext'
 import ThemeContextB from './Lab21/ThemeContextB'
 import LoginA from './Lab21/LoginA'
+import ThemeReducerA from './Lab22/ThemeReducerA'
 
 function App() {
   return (
@@ -82,7 +83,10 @@ function App() {
         {/* <AddTaskBt/> */}
         {/* <MultiContext/> */}
         {/* <ThemeContextB/> */}
-        <LoginA/>
+        {/* <LoginA/> */}
+      </div>
+      <div>
+        <ThemeReducerA/>
       </div>
     </>
   )

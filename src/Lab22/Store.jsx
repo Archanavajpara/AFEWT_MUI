@@ -1,1 +1,10 @@
-// Use redux to switch theme in an application (A)
+import { configureStore } from "@reduxjs/toolkit";
+import themeReducer from "./ThemeSlice";
+
+const store = configureStore({
+  reducer: {
+    theme: themeReducer
+  },
+});
+
+export default store;
