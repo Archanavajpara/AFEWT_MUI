@@ -33,6 +33,7 @@ import MultiContext from './Lab21/MultiContext'
 import ThemeContextB from './Lab21/ThemeContextB'
 import LoginA from './Lab21/LoginA'
 import ThemeReducerA from './Lab22/ThemeReducerA'
+import Crud1 from './Lab23/crud1'
 
 function App() {
   return (
@@ -86,7 +87,10 @@ function App() {
         {/* <LoginA/> */}
       </div>
       <div>
-        <ThemeReducerA/>
+        {/* <ThemeReducerA/> */}
+      </div>
+      <div>
+        <Crud1/>
       </div>
     </>
   )
